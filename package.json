@@ -4,7 +4,9 @@
   "description": "",
   "main": "./dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodedist/app.js",
+    "dev":"nodemon src /app.js",
+    "build":"tsc -p ."
   },
   "author": "abhinav",
   "license": "ISC",
